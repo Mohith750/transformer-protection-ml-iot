@@ -24,3 +24,54 @@ This project protects electrical transformers using real-time sensor data and ma
 ---
 
 ## 📁 Project Files
+---
+
+## ▶ How to Run
+
+### 1. Train ML Model
+
+```bash
+python ml_model_training.py
+Upload to Arduino
+
+Use Arduino IDE
+
+Upload arduino_code.ino
+
+
+3. Start Live Monitor
+
+python live_monitoring.py
+
+
+---
+
+📷 Sample Output
+
+Temp: 60°C | Current: 10A | Voltage: 210V
+Prediction: ⚠ Fault Detected
+
+
+---
+
+📚 Learning Outcome
+
+Real-time data acquisition
+
+Sensor integration (hardware + software)
+
+Machine learning fault prediction
+
+IoT + EEE + Python integration
+
+
+
+---
+
+✅ Future Improvements
+
+Add GSM/email alerts
+
+Cloud dashboard with live data
+
+Train model on more real transformer data
